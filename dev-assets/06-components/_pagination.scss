@@ -1,0 +1,8 @@
+.c-pagination {
+
+    &__item {
+        font-weight: bold;
+        margin-left: $grid-base * 0.5;
+        margin-right: $grid-base * 0.5;
+    }
+}

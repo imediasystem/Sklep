@@ -302,6 +302,12 @@ a:hover {
   padding: 0.7rem 1.5rem;
 }
 
+.c-pagination__item {
+  font-weight: bold;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 .t-site-header {
   background: url("../images/header-tlo.jpg") 0 0 no-repeat;
 }
@@ -603,4 +609,8 @@ a:hover {
 
 .u-white {
   color: #FFFFFF;
+}
+
+.u-accent {
+  color: #F1C40F;
 }

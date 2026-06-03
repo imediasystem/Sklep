@@ -134,73 +134,59 @@ a:hover {
   display: inline-block;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.5;
-  padding: 0.75rem 0;
-  text-align: center;
+  line-height: 1.2;
+  padding: 1rem 1.25rem;
   text-transform: uppercase;
   transition: all 0.25s ease-in-out;
-  width: 220px;
 }
 .c-btn:hover {
   text-decoration: none;
 }
-.c-btn--primary {
-  background-color: #D3EAFA;
-  color: #3B99E1;
-}
-.c-btn--primary:hover {
-  background-color: rgb(142.306122449, 201.2142857143, 242.193877551);
-  color: #FFFFFF;
+.c-btn__icon {
+  margin-left: 0.5rem;
 }
 .c-btn--accent {
-  background-color: #60DC64;
+  background-color: #F1C40F;
   color: #FFFFFF;
 }
 .c-btn--accent:hover {
-  background-color: rgb(43.2087628866, 196.2912371134, 48.1469072165);
-  color: #FFFFFF;
-}
-.c-btn--dark-blue {
-  background-color: #3E5CC5;
-  color: #FFFFFF;
-}
-.c-btn--dark-blue:hover {
-  background-color: rgb(42.171314741, 63.984063745, 140.328685259);
-  color: #FFFFFF;
-}
-.c-btn--light-blue {
-  background-color: #3B99E1;
-  color: #FFFFFF;
-}
-.c-btn--light-blue:hover {
-  background-color: rgb(125.3451327434, 187.5265486726, 235.1548672566);
+  background-color: rgb(169.6062992126, 137.8051181102, 9.8937007874);
   color: #FFFFFF;
 }
 .c-btn--light {
   background-color: #FFFFFF;
-  color: #3B99E1;
+  color: #444444;
 }
 .c-btn--light:hover {
   background-color: rgb(216.75, 216.75, 216.75);
-  color: #3B99E1;
+  color: #444444;
 }
 .c-btn--outline {
   background-color: transparent;
-  border: 2px solid #FFFFFF;
+  border: 3px solid #FFFFFF;
   color: #FFFFFF;
+  line-height: 1;
+  font-size: 1.5rem;
+  padding: 0.55rem 1rem;
 }
 .c-btn--outline:hover {
   color: rgb(216.75, 216.75, 216.75);
-  border: 2px solid rgb(216.75, 216.75, 216.75);
+  border: 3px solid rgb(216.75, 216.75, 216.75);
+}
+.c-btn--small {
+  border-radius: 3px;
+  font-size: 0.5625rem;
+  padding: 0.55rem 0.75rem;
 }
 
 .c-heading {
-  color: #3B99E1;
+  color: #444444;
   line-height: 1.2;
   margin-bottom: 5px;
 }
 .c-heading--level1 {
   font-size: 2.5rem;
+  letter-spacing: -0.1rem;
 }
 @media (min-width: 1200px) {
   .c-heading--level1 {
@@ -216,12 +202,6 @@ a:hover {
   }
 }
 .c-heading--level3 {
-  font-size: 1.5rem;
-}
-.c-heading--level4 {
-  font-size: 1.125rem;
-}
-.c-heading--level5 {
   font-size: 1rem;
 }
 .c-heading--upper {

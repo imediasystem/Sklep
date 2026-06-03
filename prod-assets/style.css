@@ -264,6 +264,32 @@ a:hover {
   list-style-type: none;
 }
 
+.c-input {
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1.2;
+  padding: 1rem 1.25rem;
+  outline: none;
+}
+.c-input::placeholder {
+  color: #D1D1D1;
+}
+.c-input::-moz-placeholder {
+  color: #D1D1D1;
+  opacity: 1;
+}
+.c-input:-ms-placeholder {
+  color: #D1D1D1;
+}
+.c-input--newsletter {
+  border-radius: 5px 0 0 5px;
+  padding: 0.7rem 1.5rem;
+}
+
 .t-site-header {
   background: url("../images/header-tlo.jpg") 0 0 no-repeat;
 }

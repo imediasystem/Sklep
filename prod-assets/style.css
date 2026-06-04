@@ -308,6 +308,24 @@ a:hover {
   margin-right: 5px;
 }
 
+.c-product-selector {
+  display: inline-block;
+}
+.c-product-selector__item {
+  display: block;
+  color: #444444;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+@media (min-width: 1200px) {
+  .c-product-selector__item {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 50px;
+  }
+}
+
 .t-site-header {
   background: url("../images/header-tlo.jpg") 0 0 no-repeat;
 }

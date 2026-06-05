@@ -568,49 +568,6 @@ a:hover {
   right: 0;
 }
 
-.t-clinic-locator {
-  background: linear-gradient(45deg, #3E5CC5 0%, #5B8AF8 100%);
-  padding-bottom: 45px;
-  padding-top: 40px;
-}
-@media (min-width: 1200px) {
-  .t-clinic-locator {
-    background: url("../images/map.png") 10% 80% no-repeat, linear-gradient(45deg, #3E5CC5 0%, #5B8AF8 100%);
-    padding-top: 200px;
-  }
-}
-.t-clinic-locator__right {
-  display: flex;
-  justify-content: flex-end;
-}
-.t-clinic-locator__content {
-  width: 100%;
-}
-@media (min-width: 1200px) {
-  .t-clinic-locator__content {
-    max-width: 500px;
-    text-align: right;
-  }
-}
-.t-clinic-locator__heading {
-  margin-bottom: 15px;
-}
-.t-clinic-locator__subheading {
-  color: #FFFFFF;
-  margin-bottom: 40px;
-}
-.t-clinic-locator__buttons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  margin-bottom: 25px;
-}
-.t-clinic-locator__btn {
-  margin-bottom: 15px;
-  margin-left: 15px;
-  margin-right: 0;
-}
-
 .t-site-footer {
   padding-left: 15px;
   padding-right: 15px;
@@ -669,6 +626,18 @@ a:hover {
 }
 .t-site-footer__copy-text {
   font-size: 0.75rem;
+}
+
+.t-product-list {
+  background-color: #F2F3F5;
+}
+.t-product-list .c-product-selector {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.t-product-list .c-pagination {
+  margin-bottom: 70px;
+  margin-top: 40px;
 }
 
 .u-mb-1 {

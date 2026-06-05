@@ -70,89 +70,173 @@
             </div>
         </header>
         
-        <h1 class="c-heading c-heading--level1">Nagłówek 1</h1>
-        <h2 class="c-heading c-heading--level2">Nagłówek 2</h2>
-        <h3>Nagłówek 3</h3>
-
-        <form action="">
-            <input class="c-input c-input--newsletter" type="text" placeholder="Wprowadź adres email">
-        </form>
-
-        <div class="c-icon-box">
-            <img class="c-icon-box__image" src="images/zaleta-1.png" alt="">
-            <span class="c-icon-box__name">DARMOWA DOSTAWA</span>
-            <span class="c-icon-box__info">Dla zamówień powyżej 200 PLN</span>
-        </div>
-
-        <div class="c-pagination">
-            <a class="c-pagination__item" href="#">&lt;</a>
-            <a class="c-pagination__item u-accent" href="#">1</a>
-            <a class="c-pagination__item" href="#">2</a>
-            <a class="c-pagination__item" href="#">...</a>
-            <a class="c-pagination__item" href="#">15</a>
-            <a class="c-pagination__item" href="#">&gt;</a>
-        </div>
-
-        <div class="c-product-selector">
-            <a class="c-product-selector__item u-accent" href="#">Nowości</a>
-            <a class="c-product-selector__item" href="#">Polecane</a>
-            <a class="c-product-selector__item" href="#">Promocje</a>
-        </div>
-
-        <div class="c-product-card">
-            <div class="c-product-card__top">
-                <img class="c-product-card__picture" src="images/products/p_1.jpg" alt="produkt 1">
-            </div>
-            <div class="c-product-card__bottom">    
-                <div class="c-product-card__meta">
-                    <div class="c-product-card__name">Krótka sukienka letnia</div>
-                    <div class="c-product-card__colors">
-                        <span class="c-product-card__color c-product-card__color--one"></span>
-                        <span class="c-product-card__color c-product-card__color--two"></span>
-                        <span class="c-product-card__color c-product-card__color--three"></span>
+        <section class="t-product-list">
+            <div class="o-container">
+                <div class="o-row">
+                    <div class="o-col u-text-center">
+                        <div class="c-product-selector">
+                            <a class="c-product-selector__item u-accent" href="#">Nowe produkty</a>
+                            <a class="c-product-selector__item" href="#">Polecane produkty</a>
+                            <a class="c-product-selector__item" href="#">Promocje</a>
+                        </div>
                     </div>
                 </div>
-                <span class="c-product-card__price">89 PLN</span>
-            </div>
-        </div>
 
-        <div class="c-product-card">
-            <div class="c-product-card__top">
-                <img class="c-product-card__picture" src="images/products/p_2.jpg" alt="produkt 1">
-                <div class="c-product-card__cart">
-                    <span class="c-product-card__cart-icon">
-                        <img src="images/star_small.png" alt="">
-                    </span>
-                    <span class="c-product-card__cart-text">Do koszyka</span>
-                    <span class="c-product-card__cart-icon">
-                            <img src="images/arrow-right.png" alt="">
-                    </span>
-                </div>
-            </div>
-            <div class="c-product-card__bottom">    
-                <div class="c-product-card__meta">
-                    <div class="c-product-card__name">Lekkie pantofle</div>
-                </div>
-                <span class="c-product-card__price">245 PLN</span>
-            </div>
-        </div>
-
-        <div class="c-product-card">
-            <div class="c-product-card__top">
-                <img class="c-product-card__picture" src="images/products/p_3.jpg" alt="produkt 1">
-            </div>
-            <div class="c-product-card__bottom">    
-                <div class="c-product-card__meta">
-                    <div class="c-product-card__name">Torebka skórzana</div>
-                    <div class="c-product-card__colors">
-                        <span class="c-product-card__color c-product-card__color--four"></span>
-                        <span class="c-product-card__color c-product-card__color--five"></span>
-                        <span class="c-product-card__color c-product-card__color--six"></span>
+                <!-- pierwszy wiersz produktow -->
+                <div class="o-row">
+                    <div class="o-col o-col--lg25">
+                        <div class="c-product-card">
+                            <div class="c-product-card__top">
+                                <img class="c-product-card__picture" src="images/products/p_1.jpg" alt="produkt 1">
+                            </div>
+                            <div class="c-product-card__bottom">    
+                                <div class="c-product-card__meta">
+                                    <div class="c-product-card__name">Letnia sukienka krótka</div>
+                                    <div class="c-product-card__colors">
+                                        <span class="c-product-card__color c-product-card__color--one"></span>
+                                        <span class="c-product-card__color c-product-card__color--two"></span>
+                                        <span class="c-product-card__color c-product-card__color--three"></span>
+                                    </div>
+                                </div>
+                                <span class="c-product-card__price">89 PLN</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="o-col o-col--lg25">
+                        <div class="c-product-card">
+                            <div class="c-product-card__top">
+                                <img class="c-product-card__picture" src="images/products/p_2.jpg" alt="produkt 1">
+                                <div class="c-product-card__cart">
+                                    <span class="c-product-card__cart-icon">
+                                        <img src="images/star_small.png" alt="">
+                                    </span>
+                                    <span class="c-product-card__cart-text">Do koszyka</span>
+                                    <span class="c-product-card__cart-icon">
+                                        <img src="images/arrow-right.png" alt="">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="c-product-card__bottom">    
+                                <div class="c-product-card__meta">
+                                    <div class="c-product-card__name">Lekkie pantofle</div>
+                                </div>
+                                <span class="c-product-card__price">149 PLN</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="o-col o-col--lg25">
+                        <div class="c-product-card">
+                            <div class="c-product-card__top">
+                                <img class="c-product-card__picture" src="images/products/p_3.jpg" alt="produkt 1">
+                            </div>
+                            <div class="c-product-card__bottom">    
+                                <div class="c-product-card__meta">
+                                    <div class="c-product-card__name">Torebka skórzana</div>
+                                    <div class="c-product-card__colors">
+                                        <span class="c-product-card__color c-product-card__color--four"></span>
+                                        <span class="c-product-card__color c-product-card__color--five"></span>
+                                        <span class="c-product-card__color c-product-card__color--six"></span>
+                                    </div>
+                                </div>
+                                <span class="c-product-card__price">229 PLN</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="o-col o-col--lg25">
+                        <div class="c-product-card">
+                            <div class="c-product-card__top">
+                                <img class="c-product-card__picture" src="images/products/p_4.jpg" alt="produkt 1">
+                            </div>
+                            <div class="c-product-card__bottom">    
+                                <div class="c-product-card__meta">
+                                    <div class="c-product-card__name">Spodenki jeansowe</div>
+                                </div>
+                                <span class="c-product-card__price">129 PLN</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <span class="c-product-card__price">230 PLN</span>
+
+                <!-- drugi wiersz produktow -->
+                <div class="o-row">
+                    <div class="o-col o-col--lg25">
+                        <div class="c-product-card">
+                            <div class="c-product-card__top">
+                                <img class="c-product-card__picture" src="images/products/p_5.jpg" alt="produkt 1">
+                            </div>
+                            <div class="c-product-card__bottom">    
+                                <div class="c-product-card__meta">
+                                    <div class="c-product-card__name">Spodnie jeansowe</div>
+                                </div>
+                                <span class="c-product-card__price">199 PLN</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="o-col o-col--lg25">
+                        <div class="c-product-card">
+                            <div class="c-product-card__top">
+                                <img class="c-product-card__picture" src="images/products/p_6.jpg" alt="produkt 1">
+                            </div>
+                            <div class="c-product-card__bottom">    
+                                <div class="c-product-card__meta">
+                                    <div class="c-product-card__name">Torba skórzana</div>
+                                </div>
+                                <span class="c-product-card__price">299 PLN</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="o-col o-col--lg25">
+                        <div class="c-product-card">
+                            <div class="c-product-card__top">
+                                <img class="c-product-card__picture" src="images/products/p_7.jpg" alt="produkt 1">
+                            </div>
+                            <div class="c-product-card__bottom">    
+                                <div class="c-product-card__meta">
+                                    <div class="c-product-card__name">Okulary przeciwsłoneczne</div>
+                                </div>
+                                <span class="c-product-card__price">49 PLN</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="o-col o-col--lg25">
+                        <div class="c-product-card">
+                            <div class="c-product-card__top">
+                                <img class="c-product-card__picture" src="images/products/p_8.jpg" alt="produkt 1">
+                            </div>
+                            <div class="c-product-card__bottom">    
+                                <div class="c-product-card__meta">
+                                    <div class="c-product-card__name">Letnia sukienka długa</div>
+                                    <div class="c-product-card__colors">
+                                        <span class="c-product-card__color c-product-card__color--seven"></span>
+                                        <span class="c-product-card__color c-product-card__color--eight"></span>
+                                        <span class="c-product-card__color c-product-card__color--nine"></span>
+                                    </div>
+                                </div>
+                                <span class="c-product-card__price">129 PLN</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- paginacja -->
+                <div class="o-row">
+                    <div class="o-col u-text-center">
+                        <div class="c-pagination">
+                            <a class="c-pagination__item" href="#">&lt;</a>
+                            <a class="c-pagination__item u-accent" href="#">1</a>
+                            <a class="c-pagination__item" href="#">2</a>
+                            <a class="c-pagination__item" href="#">...</a>
+                            <a class="c-pagination__item" href="#">15</a>
+                            <a class="c-pagination__item" href="#">&gt;</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
+
+        
+
+        
 
         <script src="" async defer></script>
     </body>

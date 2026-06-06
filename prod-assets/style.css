@@ -670,63 +670,70 @@ a:hover {
 }
 
 .t-site-footer {
-  padding-left: 15px;
-  padding-right: 15px;
+  background-color: #444444;
 }
 .t-site-footer .o-row {
-  padding-bottom: 40px;
+  padding-bottom: 15px;
   padding-top: 40px;
 }
 .t-site-footer__item {
-  flex-basis: auto;
-  padding-left: 15px;
+  margin-bottom: 30px;
 }
-@media (min-width: 800px) {
-  .t-site-footer__item:first-child {
-    width: 25%;
+@media (min-width: 1200px) {
+  .t-site-footer__item {
+    margin-bottom: 0;
   }
 }
-@media (min-width: 800px) {
-  .t-site-footer__item:nth-child(2) {
-    width: 25%;
+.t-site-footer__item-last {
+  width: 290px;
+}
+@media (min-width: 1200px) {
+  .t-site-footer__item-last {
+    margin-left: 75px;
   }
 }
-@media (min-width: 800px) {
-  .t-site-footer__item:nth-child(3) {
-    width: 25%;
-  }
-}
-@media (min-width: 800px) {
-  .t-site-footer__item:nth-child(4) {
-    width: 25%;
-  }
-}
-.t-site-footer__heading {
-  align-items: center;
-  display: flex;
-  height: 60px;
-}
-.t-site-footer__text-heading {
-  color: #797979;
-}
-.t-site-footer__address {
-  padding-top: 20px;
-}
-.t-site-footer__label {
+.t-site-footer__text {
+  color: #FFFFFF;
   display: block;
-  font-size: 1rem;
-  margin-bottom: 10px;
-}
-.t-site-footer__contact-item {
-  line-height: 1.8;
+  font-size: 0.75rem;
   margin-bottom: 20px;
 }
+.t-site-footer__link {
+  color: #FFFFFF;
+  display: block;
+  font-size: 0.75rem;
+  margin-bottom: 12px;
+}
+.t-site-footer__link:hover {
+  color: #FFFFFF;
+}
+.t-site-footer__address {
+  padding-right: 40px;
+}
+.t-site-footer__info {
+  line-height: 2;
+}
+.t-site-footer__links {
+  display: flex;
+}
+.t-site-footer__links-first {
+  width: 55%;
+}
+.t-site-footer__links-second {
+  width: 45%;
+}
+.t-site-footer__instagrams {
+  margin-bottom: 15px;
+}
+.t-site-footer__instagram {
+  margin-right: 3px;
+}
 .t-site-footer__copy {
+  background-color: #F2F3F5;
+  color: #444444;
+  font-size: 0.75rem;
   padding-bottom: 25px;
   padding-top: 25px;
-}
-.t-site-footer__copy-text {
-  font-size: 0.75rem;
 }
 
 .t-site-header__top {

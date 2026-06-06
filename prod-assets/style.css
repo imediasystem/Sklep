@@ -71,7 +71,7 @@ a:hover {
   margin-left: -15px;
   margin-right: -15px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
   .o-row {
     flex-direction: row;
   }

@@ -656,6 +656,19 @@ a:hover {
   margin-left: 20px;
 }
 
+.t-shopper-info {
+  padding-bottom: 70px;
+  padding-top: 60px;
+}
+.t-shopper-info__item {
+  margin-bottom: 60px;
+}
+@media (min-width: 1200px) {
+  .t-shopper-info__item {
+    margin-bottom: 0;
+  }
+}
+
 .t-site-footer {
   padding-left: 15px;
   padding-right: 15px;

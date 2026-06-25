@@ -24,3 +24,12 @@ Some projects uses [node](https://nodejs.org/en/) and [npm](https://www.npmjs.co
 ## 🔗 See also
 Are you interested in? See my other projects and visit my website [iMedia SysteM](https://imediasystem.pl/) ↗️
 &nbsp;
+
+## 📩 Contact / Collaboration
+Looking for a professional website for your creative business? Let’s talk about your project!
+
+[![Facebook](https://img.shields.io/badge/Facebook-D14836?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/profile.php?id=61577832340228)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/imedia-system/about/?viewAsMember=true)
+
+> **Ready to bring your vision to life? Drop me a message and let's create something amazing together!**
+&nbsp;

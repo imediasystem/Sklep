@@ -33,3 +33,6 @@ Looking for a professional website for your creative business? Let’s talk abou
 
 > **Ready to bring your vision to life? Drop me a message and let's create something amazing together!**
 &nbsp;
+
+## 👏 Thanks / Special thanks / Credits
+Thanks to my wife – for her time, advice, encouragement and support in creating this project.

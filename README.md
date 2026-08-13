@@ -1,3 +1,5 @@
+<img width="1893" height="913" alt="Zrzut ekranu 2026-08-13 121802" src="https://github.com/user-attachments/assets/276780f3-1aff-4bb2-9087-1825a0014605" />
+
 ## 🔥 Project Name - SKLEP
 
 [![View Demo](https://img.shields.io/badge/LIVE_DEMO-Visit_Website-blue?style=for-the-badge&logo=googlechrome&logoColor=white)](https://imediasystem.github.io/Sklep/)
